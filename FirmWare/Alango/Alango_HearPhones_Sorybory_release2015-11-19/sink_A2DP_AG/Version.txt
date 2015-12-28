@@ -1,0 +1,24 @@
+29.03.15
+Fixed bugs:
+1.Error->Need to add ring tone for Intercom call and terminate the call if the other side not answering for one minute.
+Added sounds.
+2.Error->Pairing doesn't work when phone is connected.
+Corrected this error.
+3. Errors connection in intercom mode
+
+24.03.15
+Fixed bugs:
+1.Connect 2 evaluation boards in intercom mode
+2.Added LED modes states indicators
+
+01.03.15
+Fixed bugs:
+ >1.The two headsets was saved on HearPhones memory after pairing. We need to save only the last paired device if it’s not cell phone.
+ Fixed.Registration only one HearPhones.
+ >2.The sound is very week and volume buttons are not working. 
+ Added volume control in mode 'Intercom'. The value of the volume in 'Intercom' is stored in PsKey 'CONFIG_IR_REMOTE_CONTROL'.
+ >I get no sound from HearPhones to the headset, only opposite direction works.
+ Use the microphone input 'L-Mic'
+
+
+    

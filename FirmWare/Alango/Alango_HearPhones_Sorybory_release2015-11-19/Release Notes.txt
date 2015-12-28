@@ -1,0 +1,38 @@
+Sorynory HearPhones
+
+Date of creation: 15/11/2015
+Date of modification: 18/11/2015
+Based version: HearPhones Rev.61
+Development Environment: ADK3.5, tested with CSR's CNS10001v4 development board.
+
+Release for Sorynory
+
+Modification:
+	1.10.2015:
+	+ Hearing functionality turn on automatically after turned off by other functionality like phone call or A2DP streaming.
+	+ Updated .kap files to latest release version rev.2984 .
+	
+	
+	15.11.2015:
+	+ Fixed audio routing bugs.
+	+ Fixed LED indication bugs.
+
+
+==================NOTES====================
+	- The Event related to turn off/on the Hearing Functionality is EventUsrSubwooferDisconnect.
+	To change button or LED related configurations use the sink configuration tool.
+	
+	- Use the attached dump files and .psr files in the <project>/dump folder to start working with this project.
+	
+	- The reference source code of VM project is attached to <project>/sink_A2DP_AG
+	
+===============Contact Info=================
+Alango Technologies Ltd. 
+2 Etgar St., POB 62, 
+Tirat Carmel 39100, Israel
+Tel: +972-4-8580743       
+Fax: +972-4-8580621      
+Web site: www.alango.com
+E-mails list: 
+HC Ju : hc.ju@kr.wpgholdings.com
+AR, Chief Of Application: alex.radzishevsky@alango.com
